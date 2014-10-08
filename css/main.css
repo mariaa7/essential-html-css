@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 body {
-	font-family: 'Lato';
+	font-family: 'Lato', 'Helvetica Neue';
 	font-size: 18px;
 	font-weight: 300;
 	background-image: url("../img/background.jpg");
@@ -29,8 +29,30 @@ main {
 	opacity: 0.9;
 }
 
-main section {
+.Info, .Menu, .About {
 	padding: 1em;
+}
+
+.Menu {
+	background-color: rgba(207,205,140, 0.5);
+}
+
+.Menu dt {
+	font-weight: 400;
+}
+
+.Menu dd {
+	font-size: 80%;
+	font-style: italic;
+	margin: 0 0 1em 1em;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px solid #EC791F;
+	font-size: 80%;
+	text-align: right;
 }
 
 a:link {
@@ -67,7 +89,7 @@ h3 {
 }
 
 h1, h2, h3 {
-	font-family: 'Raleway';
+	font-family: 'Raleway', 'Helvetica Neue';
 	font-weight: 300;
 }
 
